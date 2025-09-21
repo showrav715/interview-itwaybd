@@ -28,7 +28,7 @@ class SaleController extends Controller
             $query->whereBetween('sale_date', [$request->date_from, $request->date_to]);
         }
 
-        $sales = $query->orderBy('sale_date', 'desc')->paginate(15)->withQueryString();
+        $sales = $query->orderBy('id', 'desc')->paginate(15)->withQueryString();
 
         // DB sum instead of collection sum (more efficient)
         $pageTotal = $query->sum('total');

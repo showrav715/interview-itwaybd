@@ -45,6 +45,9 @@ php artisan db:seed
 
 > ⚠️ Note: This may take **2–3 minutes** because the seeder includes a large amount of data for testing filters and query performance optimization.
 
+Or You can import manullay database.sql file on your phpmyadmin i alrady shared database.sql file 
+
+
 ## 6. Run the Application
 
 ```
