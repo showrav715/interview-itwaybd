@@ -48,7 +48,13 @@ php artisan db:seed
 Or You can import manullay database.sql file on your phpmyadmin i alrady shared database.sql file 
 
 
-## 6. Run the Application
+## 6. Application Key Generate
+
+```
+php artisan key:generate
+```
+
+## 7. Run the Application
 
 ```
 php artisan serve
