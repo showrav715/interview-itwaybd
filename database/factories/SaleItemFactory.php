@@ -15,7 +15,7 @@ class SaleItemFactory extends Factory
         $product = Product::inRandomOrder()->first();
         $quantity = $this->faker->numberBetween(1,10);
         $price = $product->price;
-        $discount = $this->faker->numberBetween(0, round($price*$quantity*0.2));
+        $discount = $this->faker->numberBetween(0, 70);
 
         return [
             'product_id' => $product->id,
