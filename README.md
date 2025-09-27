@@ -1,12 +1,12 @@
-# Interview ItWayBD - Project Setup Instructions
+# Project Setup Instructions
 
-Follow these steps to set up the **Interview ItWayBD** project locally:
+Follow these steps to set up the  project locally:
 
 ## 1. Clone the Repository
 
 ```
-git clone https://github.com/showrav715/interview-itwaybd.git
-cd interview-itwaybd
+git clone [https://github.com/showrav715/interview-itwaybd.git](https://github.com/showrav715/Product-Inventory-System.git)
+cd Product-Inventory-System
 ```
 
 ## 2. Install Dependencies
